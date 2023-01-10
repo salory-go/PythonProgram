@@ -58,7 +58,6 @@ def search(menu, name):
     for i in range(len(menu)):
         if menu[i].name == name.strip():
             return i
-    print(menu[i].name + " " + name)
     print("Item not present in menu")
     return -1
 
@@ -229,4 +228,10 @@ if __name__ == "__main__":
 
     """Store the updated menu into the file menu.txt """
     write_to_file("menu.txt", menu)
-input()
+# Margherita Pizza, $1.75, $1.99, 5
+# Farmhouse Pizza, $3.9, $3.95, 10
+# Chicken Sausage Pizza, $3.0, $3.05, 8
+# Spicy Pasta, $1.8, $1.85, 25
+# Stuffed Garlic Bread, $1.5, $1.59, 20
+# Veg Schezwan Noodles, $1.0, $1.05, 30
+# Veg Biryani, $1.1, $1.2, 45
